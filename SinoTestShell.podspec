@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SinoTestShell"
-  spec.version      = "1.0.1" # Mark
+  spec.version      = "1.0.2" # Mark
   spec.summary      = "Test Shell Script"
   spec.homepage     = "https://github.com/ChinaChong/TestPodRepo"
   spec.license      = "MIT"
