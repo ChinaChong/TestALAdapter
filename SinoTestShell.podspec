@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SinoTestShell"
-  spec.version      = "1.0.2" # Mark
+  spec.version      = "1.0.4" # Mark
   spec.summary      = "Test Shell Script"
   spec.homepage     = "https://github.com/ChinaChong/TestPodRepo"
   spec.license      = "MIT"
@@ -10,11 +10,11 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/ChinaChong/TestALAdapter.git", :tag => "#{spec.version}" }
-  spec.source_files = "Noxmobi.framework/Headers/*.{h}"
+  spec.source_files = "AppLovinMediationGoogleAdapter.framework/Headers/*.{h}"
   # spec.source_files = "AppLovinMediationGoogleAdapter.framework/Headers/*.{h}", "AppLovinMediationFacebookAdapter.framework/Headers/*.{h}"
 
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-  spec.ios.vendored_frameworks = 'Noxmobi.framework'
+  spec.ios.vendored_frameworks = 'AppLovinMediationGoogleAdapter.framework'
   spec.requires_arc = true
   # spec.frameworks = "Foundation", "UIKit", "VideoToolbox", "StoreKit", "CoreMedia", "AVFoundation", "WebKit", "CoreMotion", "SystemConfiguration", "AudioToolBox" #依赖多个系统framework
   # vspec.libraries = "xml2", "c++" # 设置依赖多个系统的library
